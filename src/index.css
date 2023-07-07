@@ -1,10 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "PersianSword";
+  src: local("PersianSword"),
+    url("./components/fonts/PersianSword/PersianSword.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Bardstown";
+  src: local("Bardstown"),
+    url("./components/fonts/Bardstown/Bardstown.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GraffitiNew";
+  src: local("GraffitiNew"),
+    url("./components/fonts/GraffitiNew/GraffitiNew.ttf") format("truetype");
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: "RightStage";
+  src: local("RightStage"),
+    url("./components/fonts/RightStage/RightStage.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SokaRegular";
+  src: local("SokaRegular"),
+    url("./components/fonts/Soka/SokaRegular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SokaThin";
+  src: local("SokaThin"),
+    url("./components/fonts/Soka/SokaThin.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "SokaUltraBold";
+  src: local("SokaUltraBold"),
+    url("./components/fonts/Soka/SokaUltraBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Niblick";
+  src: local("Niblick"),
+    url("./components/fonts/Niblick/Niblick.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Raque";
+  src: local("Raque"),
+    url("./components/fonts/Raque/RaqueDemo.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "QuickerMachine";
+  src: local("QuickerMachine"),
+    url("./components/fonts/QuickerMachine/QuickerMachine.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Nevolasty";
+  src: local("Nevolasty"),
+    url("./components/fonts/nevolasty/Nevolasty.otf") format("opentype");
+  font-weight: bold;
 }
 
 code {

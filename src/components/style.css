@@ -1,0 +1,258 @@
+HTML {
+    text-align: center;
+    background: url(images/PlainBlue.jpg) ;
+    background-size: cover;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, .4);
+    color: rgba(171, 156, 213, 0.928);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+/*Dashboard*/
+
+.dashShell {
+    width: auto;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: SokaThin;
+    box-shadow: 10px 10px silver;
+    border: 1px solid silver;
+}
+
+
+
+.dashLeft {
+    margin-left: -80px;
+    font-family: Nevolasty;
+    font-size: 60px;
+    color: rgb(215, 211, 228);
+    text-shadow: 10px 10px black;
+    font-weight: bold;
+    font-style: italic;
+    transform: rotate(-25deg);
+}
+
+.dashRight {
+    font-size: 25px;
+    text-shadow: 5px 5px black;
+}
+
+.dashPic {
+    margin-top: 10px;
+    width: 700px;
+    height: 700px;
+    background-image: transparent;
+}
+
+.dashBtn {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    color: silver;
+}
+
+
+/* Projects */
+
+.pShell {
+    width: auto;
+    color: lightgray;
+    height: 1050px;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px;
+    font-family: SokaThin;
+    font-size: large;
+    border: 1px solid silver;
+    box-shadow: 10px 10px silver;
+}
+
+.pBox {
+    display: flex;
+}
+
+.pBox1 {
+    display: flex;
+}
+
+.plogo {
+    width: 80px;
+    height: 55px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: solid white 1px;
+}
+
+/* Tech Skills */
+
+.techShell {
+    width: auto;
+    height: 750px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: SokaThin;
+    padding-bottom: 4%;
+}
+
+.techBox {
+    font-family: SokaThin;
+    font-size: large;
+    width: 300px;
+    height: 650px;
+    color: lightgray;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px white solid;
+}
+
+.techLogo {
+    width: 30px;
+    height: 30px;
+}
+
+/* Education */
+
+.edShell {
+    width: auto;
+    color: lightgray;
+    height:1000px;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px;
+    font-family: SokaThin;
+    font-size: large;
+    padding-bottom: 4%;
+    box-shadow: 10px 10px silver;
+    border: 1px solid silver;
+}
+
+
+.edlogo {
+    width: 80px;
+    height: 55px;
+    margin-right: 20px;
+    border: solid black 1px;
+}
+
+
+/* WorkRecord */
+
+.wkShell {
+    width: auto;
+    color: lightgray;
+    height: 1800px;
+
+    padding: 20px;
+    font-family: SokaThin;
+    font-size: large;
+    padding-bottom: 4%;
+
+}
+
+li {
+    list-style-type: '';
+}
+
+.wklogo {
+    width: 80px;
+    height: 55px;
+    margin-right: 20px;
+    border: solid black 1px;
+}
+
+/*Contact Page*/
+
+.contactlogo {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.contactlogo2 {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.contShell {
+    width: auto;
+    height: 150px;
+    background-color: rgba(0, 0, 0, .2);
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px silver;
+    border: 1px solid silver;
+}
+
+.contLeft {
+    font-family: SokaRegular;
+    font-size: x-large;
+    display: flex;
+}
+
+.contCenter {
+    font-family: SokaRegular;
+    font-size: x-large;
+}
+
+.contRight {
+    font-family: SokaRegular;
+    font-size: x-large;
+    display: flex;
+}
+
+/* AboutMe */
+
+.AMShell {
+    font-family: SokaThin;
+    color: lightgray;
+    font-size: medium;
+    width: auto;
+    height: 500px;
+    background-color: transparent;
+    padding: 3%;
+    margin-top: 10%;
+
+}
+
+.AMpic {
+    border: 1px rgba(171, 156, 213, 0.906) solid;
+    border-radius: 2%;
+    height: 400px;
+    width: 400px;
+    margin: 2%;
+}
+
+/* KSDemo */
+
+.KSBox {
+    height: 100vh;
+    width: auto;
+    margin-top: -2%;
+    color: lightgray;
+    background-color: rgba(0, 0, 0, .2);
+    font-family: SokaThin;
+    font-size: 30px;
+}
+
+.KSbtn {
+    background-color: rgba(0, 0, 0, .4);
+    color: silver;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+    text-decoration: none;
+}
