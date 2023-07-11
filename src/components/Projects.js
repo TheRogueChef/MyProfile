@@ -11,12 +11,12 @@ import '../components/style.css';
 const Projects = () => {
     return (
         <div className='pShell'>
-            <h1 style={{ fontFamily: 'SokaRegular', textDecoration: 'underline', textShadow: '4px 4px black'}}>Projects</h1>
+            <h1 style={{ fontFamily: 'SokaRegular', textDecoration: 'underline', textShadow: '4% 4% black'}}>Projects</h1>
             <br /><br /><br />
             <div className='pBox'>
                 
                     <Image className='plogo' src={KitSyncLogo} alt='...' />
-                    <h1>Kitchen Sync</h1>
+                    <h1 style={{ textShadow: '5% 5% black'}}>Kitchen Sync</h1>
         
 
                 <hr/>

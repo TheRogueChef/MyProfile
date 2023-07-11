@@ -1,3 +1,5 @@
+@media (min-width: 1px) and (max-width: 100vw) {
+
 HTML {
     text-align: center;
     background: url(images/PlainBlue.jpg) ;
@@ -10,8 +12,8 @@ HTML {
     background-color: rgba(0, 0, 0, .4);
     color: rgba(171, 156, 213, 0.928);
     border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 2px 2px black;
+    border-radius: 10%;
+    box-shadow: 2% 2% black;
 }
 
 /*Dashboard*/
@@ -73,15 +75,13 @@ HTML {
     font-size: large;
     border: 1px solid silver;
     box-shadow: 10px 10px silver;
+    
 }
 
 .pBox {
     display: flex;
 }
 
-.pBox1 {
-    display: flex;
-}
 
 .plogo {
     width: 80px;
@@ -255,4 +255,5 @@ li {
     border-radius: 10px;
     box-shadow: 2px 2px black;
     text-decoration: none;
+}
 }
