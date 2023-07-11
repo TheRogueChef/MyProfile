@@ -14,7 +14,7 @@ HTML {
     background-color: rgba(0, 0, 0, .2);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font-family: SokaThin;
     border: 1px solid silver;
     margin-left: inherit;
@@ -28,12 +28,15 @@ HTML {
     text-shadow: 10px 10px black;
     font-style: italic;
     transform: rotate(-10deg);
+    margin-right: 5%;
 }
 
 .dashRight {
     font-size: 25px;
     text-shadow: 5px 5px black;
     color: silver;
+    margin-left: 5%;
+    
 }
 
 
