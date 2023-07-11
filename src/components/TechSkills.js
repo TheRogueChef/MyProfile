@@ -99,7 +99,7 @@ const TechSkills = () => {
 
             </div>
             <div style={{ marginBottom: '4%'}}>
-                <Link style={{ fontFamily: 'SokaThin' }} to='top' className="dashBtn" smooth={true} duration={500}>Back to Top</Link>
+                <Link style={{  color: 'silver', fontFamily: 'SokaThin' }} to='top'  smooth={true} duration={500}>Back to Top</Link>
             </div>
         </div>
     )

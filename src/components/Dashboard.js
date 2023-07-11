@@ -1,7 +1,5 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
 import { Link } from 'react-scroll';
-import techlogo from './images/techlogo.png';
 import '../components/style.css';
 
 
@@ -10,22 +8,23 @@ const Dashboard = () => {
     return (
         <div className='dashShell' >
             <div className='dashLeft'>
-                <h1>Erik</h1>
-                <h1 style={{ marginTop: '-20%' }}>Carlson</h1>
+                <h1 style={{ marginTop: '1%'}}>Erik</h1>
+                <h1 style={{ marginTop: '-11%' }}>Carlson</h1>
+                <h6 style={{ marginTop: '-6%' }}>Ex Chef gone rogue in the world of tech!!</h6>
             </div>
-            <Image className='dashPic' src={techlogo} alt='...'  />
+            <h1 style={{ color: 'silver', fontSize: '100px'}}>~</h1>
             <div className='dashRight'>
-                <Link className='dashBtn' to='about' smooth={true} duration={500} >About Me</Link>
+                <Link to='about' smooth={true} duration={500} >About Me</Link>
                 <br /><br />
-                <Link className='dashBtn' to='projects' smooth={true} duration={500}>Projects</Link>
+                <Link  to='projects' smooth={true} duration={500}>Projects</Link>
                 <br /><br />
-                <Link className='dashBtn' to='techSkills' smooth={true} duration={500}>Tech Skills</Link>
+                <Link to='techSkills' smooth={true} duration={500}>Tech Skills</Link>
                 <br /><br />
-                <Link className='dashBtn' to='education' smooth={true} duration={500}>Education</Link>
+                <Link to='education' smooth={true} duration={500}>Education</Link>
                 <br /><br />
-                <Link className='dashBtn' to='experience' smooth={true} duration={500}>Experience</Link>
+                <Link to='experience' smooth={true} duration={500}>Experience</Link>
                 <br /><br />
-                <Link className='dashBtn' to='contact' smooth={true} duration={500}>Contact</Link>
+                <Link to='contact' smooth={true} duration={500}>Contact</Link>
             </div>
         </div >
     )
