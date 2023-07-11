@@ -16,7 +16,7 @@ const Projects = () => {
             <div className='pBox'>
                 
                     <Image className='plogo' src={KitSyncLogo} alt='...' />
-                    <h1 style={{ textShadow: '5% 5% black'}}>Kitchen Sync</h1>
+                    <h1>Kitchen Sync</h1>
         
 
                 <hr/>

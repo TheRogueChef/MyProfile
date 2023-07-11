@@ -20,7 +20,7 @@ HTML {
 
 .dashShell {
     width: auto;
-    height: 500px;
+    height: 450%;
     background-color: rgba(0, 0, 0, .2);
     display: flex;
     align-items: center;
@@ -33,9 +33,9 @@ HTML {
 
 
 .dashLeft {
-    margin-left: -80px;
+    margin-left: -5%;
     font-family: Nevolasty;
-    font-size: 60px;
+    font-size: 400%;
     color: rgb(215, 211, 228);
     text-shadow: 10px 10px black;
     font-weight: bold;
@@ -44,14 +44,14 @@ HTML {
 }
 
 .dashRight {
-    font-size: 25px;
+    font-size: 200%;
     text-shadow: 5px 5px black;
 }
 
 .dashPic {
-    margin-top: 10px;
-    width: 700px;
-    height: 700px;
+
+    width: 40%;
+    height: 40%;
     background-image: transparent;
 }
 
@@ -68,9 +68,9 @@ HTML {
 .pShell {
     width: auto;
     color: lightgray;
-    height: 1050px;
+    height: 150%;
     background-color: rgba(0, 0, 0, .2);
-    padding: 20px;
+    padding: 2%;
     font-family: SokaThin;
     font-size: large;
     border: 1px solid silver;
@@ -84,9 +84,9 @@ HTML {
 
 
 .plogo {
-    width: 80px;
-    height: 55px;
-    margin-top: 15px;
+    width: 6%;
+    height: 6%;
+    margin-top: 1%;
     margin-right: 20px;
     border: solid white 1px;
 }
@@ -95,10 +95,10 @@ HTML {
 
 .techShell {
     width: auto;
-    height: 750px;
+    height: 100%;
     background-color: transparent;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-evenly;
     font-family: SokaThin;
     padding-bottom: 4%;
@@ -107,8 +107,8 @@ HTML {
 .techBox {
     font-family: SokaThin;
     font-size: large;
-    width: 300px;
-    height: 650px;
+    width: 20%;
+    height: 200%;
     color: lightgray;
     font-weight: bold;
     font-style: italic;
@@ -116,8 +116,8 @@ HTML {
 }
 
 .techLogo {
-    width: 30px;
-    height: 30px;
+    width: 8%;
+    height: 8%;
 }
 
 /* Education */
@@ -125,9 +125,9 @@ HTML {
 .edShell {
     width: auto;
     color: lightgray;
-    height:1000px;
+    height:150%;
     background-color: rgba(0, 0, 0, .2);
-    padding: 20px;
+    padding: 2%;
     font-family: SokaThin;
     font-size: large;
     padding-bottom: 4%;
@@ -137,9 +137,8 @@ HTML {
 
 
 .edlogo {
-    width: 80px;
-    height: 55px;
-    margin-right: 20px;
+    width: 8%;
+    height: 8%;
     border: solid black 1px;
 }
 
@@ -149,9 +148,8 @@ HTML {
 .wkShell {
     width: auto;
     color: lightgray;
-    height: 1800px;
-
-    padding: 20px;
+    height: 150%;
+    padding: 2%;
     font-family: SokaThin;
     font-size: large;
     padding-bottom: 4%;
@@ -163,31 +161,28 @@ li {
 }
 
 .wklogo {
-    width: 80px;
-    height: 55px;
-    margin-right: 20px;
+    width: 8%;
+    height: 8%;
     border: solid black 1px;
 }
 
 /*Contact Page*/
 
 .contactlogo {
-    width: 35px;
-    height: 35px;
-    margin-right: 10px;
-    margin-top: 20px;
+    width: 8%;
+    height: 8%;
+    margin-top: 5%;
 }
 
 .contactlogo2 {
-    width: 35px;
-    height: 35px;
-    margin-right: 15px;
-    margin-top: 5px;
+    width: 8%;
+    height: 8%;
+    margin-top: 1%;
 }
 
 .contShell {
     width: auto;
-    height: 150px;
+    height: 100%;
     background-color: rgba(0, 0, 0, .2);
     color: lightgray;
     display: flex;
@@ -195,22 +190,21 @@ li {
     justify-content: space-evenly;
     box-shadow: 10px 10px silver;
     border: 1px solid silver;
+    font-family: SokaRegular;
+    font-size: 150%;
+    padding-right: 3%;
+    padding-bottom: 1%;
 }
 
 .contLeft {
-    font-family: SokaRegular;
-    font-size: x-large;
     display: flex;
 }
 
-.contCenter {
-    font-family: SokaRegular;
-    font-size: x-large;
+.contCenter{
+    margin-right: 3%;
 }
 
 .contRight {
-    font-family: SokaRegular;
-    font-size: x-large;
     display: flex;
 }
 
@@ -221,7 +215,7 @@ li {
     color: lightgray;
     font-size: medium;
     width: auto;
-    height: 500px;
+    height: 150%;
     background-color: transparent;
     padding: 3%;
     margin-top: 10%;
@@ -231,8 +225,8 @@ li {
 .AMpic {
     border: 1px rgba(171, 156, 213, 0.906) solid;
     border-radius: 2%;
-    height: 400px;
-    width: 400px;
+    height: 25%;
+    width: 25%;
     margin: 2%;
 }
 
@@ -245,14 +239,14 @@ li {
     color: lightgray;
     background-color: rgba(0, 0, 0, .2);
     font-family: SokaThin;
-    font-size: 30px;
+    font-size: 175%;
 }
 
 .KSbtn {
     background-color: rgba(0, 0, 0, .4);
     color: silver;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 25%;
     box-shadow: 2px 2px black;
     text-decoration: none;
 }
