@@ -17,10 +17,10 @@ HTML {
     justify-content: space-evenly;
     font-family: SokaThin;
     border: 1px solid silver;
+    margin-left: inherit;
 }
 
 .dashLeft {
-
     font-family: Nevolasty;
     font-size: 400%;
     color: rgb(215, 211, 228);
@@ -192,7 +192,6 @@ li {
     height: 100%;
     background-color: transparent;
     padding: 3%;
-    margin-top: 10%;
 }
 
 .AMpic {

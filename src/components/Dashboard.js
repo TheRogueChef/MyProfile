@@ -11,9 +11,9 @@ const Dashboard = () => {
         <div className='dashShell' >
             <div className='dashLeft'>
                 <h1>Erik</h1>
-                <h1 style={{ marginTop: '-130px' }}>Carlson</h1>
+                <h1 style={{ marginTop: '-20%' }}>Carlson</h1>
             </div>
-            <Image className='dashPic' src={techlogo} alt='...' style={{ marginLeft: '-75px' }} />
+            <Image className='dashPic' src={techlogo} alt='...'  />
             <div className='dashRight'>
                 <Link className='dashBtn' to='about' smooth={true} duration={500} >About Me</Link>
                 <br /><br />
