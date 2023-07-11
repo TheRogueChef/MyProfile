@@ -17,25 +17,22 @@ HTML {
     justify-content: center;
     font-family: SokaThin;
     border: 1px solid silver;
-    text-shadow: 5px 5px black;
+    text-shadow: 4px 4px black;
+    color: silver;
+    font-size: 25px;
 }
 
 .dashLeft {
     font-family: Nevolasty;
     font-size: 50px;
-    color: rgb(215, 211, 228);
-    text-shadow: 10px 10px black;
+    text-shadow: 8px 8px black;
     font-style: italic;
     transform: rotate(-10deg);
     margin-right: 5%;
 }
 
 .dashRight {
-    font-size: 25px;
-    text-shadow: 5px 5px black;
-    color: silver;
     margin-left: 5%;
-    
 }
 
 
@@ -77,7 +74,6 @@ HTML {
 }
 
 .techBox {
-    font-family: SokaThin;
     font-size: large;
     width: 20%;
     height: 200%;
@@ -137,16 +133,10 @@ li {
 
 
 /*Contact Page*/
-.contactlogo {
-    width: 8%;
-    height: 8%;
-    margin-top: 5%;
-}
-
-.contactlogo2 {
-    width: 8%;
-    height: 8%;
-    margin-top: 3%;
+.contactlogo, .contactlogo2 {
+    width: 10%;
+    height: 10%;
+    margin-top: 0%;
 }
 
 .contShell {
@@ -160,16 +150,7 @@ li {
     border: 1px solid silver;
     font-family: SokaRegular;
     font-size: 25px;
-    padding-right: 3%;
-    padding-bottom: 1%;
-}
-
-.contLeft, .contRight {
-    display: flex;
-}
-
-.contCenter{
-    margin-right: 3%;
+    padding: 2%;
 }
 
 
@@ -194,7 +175,7 @@ li {
 
 
 /* KSDemo */
-.KSBox {
+.DemoBox {
     height: 100vh;
     width: 100vw;
     margin-top: -2%;

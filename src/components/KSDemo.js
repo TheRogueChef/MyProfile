@@ -4,7 +4,7 @@ import video from './videos/KitSyncDemo.mp4';
 
 const KSDemo = () => {
     return (
-        <div className='KSBox'>
+        <div className='DemoBox'>
             <br /> 
             <h1>Kitchen Sync</h1>
             <video  style={{ height: '60%', border: '2px solid silver'}} src={video} controls/>

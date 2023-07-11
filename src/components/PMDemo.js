@@ -4,7 +4,7 @@ import video from './videos/PMDemo.mp4';
 
 const PMDemo = () => {
     return (
-        <div className='KSBox'>
+        <div className='DemoBox'>
             <br /> 
             <h1>Product Manager</h1>
             <video  style={{ height: '60%', border: '2px solid silver'}} src={video} controls/>

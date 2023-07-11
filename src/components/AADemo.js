@@ -4,7 +4,7 @@ import video from './videos/AADemo.mp4';
 
 const AADemo = () => {
     return (
-        <div className='KSBox'>
+        <div className='DemoBox'>
             <br /> 
             <h1>Author, Author</h1>
             <video  style={{ height: '60%', border: '2% solid silver'}} src={video} controls/>

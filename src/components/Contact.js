@@ -14,16 +14,16 @@ const Contact = () => {
 
     return (
         <div className='contShell'>
-            <div className='contLeft'>
+            <div>
                 <Image className='contactlogo' src={linkedinLogo} alt='...'/>
                 <h3>linkedin.com/in/erikdcarlson</h3>
             </div>
-            <div className='contCenter'>
+            <div>
             <Image className='contactlogo2' src={phone} alt='...'/>425-466-6581
                 <hr/> 
             <Image className='contactlogo2' src={Email} alt='...'/>theroguechef@comcast.net
             </div>
-            <div className='contRight'> 
+            <div> 
             <Image className='contactlogo' src={githubLogo} alt='...'/>
                 <h3>github.com/TheRogueChef</h3>
             </div>
