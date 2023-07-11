@@ -6,18 +6,8 @@ HTML {
     background-size: cover;
 }
 
-.btn {
-    width: auto;
-    height: auto;
-    background-color: rgba(0, 0, 0, .4);
-    color: rgba(171, 156, 213, 0.928);
-    border: 1px solid black;
-    border-radius: 10%;
-    box-shadow: 2% 2% black;
-}
 
 /*Dashboard*/
-
 .dashShell {
     width: auto;
     height: 450%;
@@ -26,11 +16,8 @@ HTML {
     align-items: center;
     justify-content: space-evenly;
     font-family: SokaThin;
-    box-shadow: 10px 10px silver;
     border: 1px solid silver;
 }
-
-
 
 .dashLeft {
     margin-left: -5%;
@@ -49,7 +36,6 @@ HTML {
 }
 
 .dashPic {
-
     width: 40%;
     height: 40%;
     background-image: transparent;
@@ -64,7 +50,6 @@ HTML {
 
 
 /* Projects */
-
 .pShell {
     width: auto;
     color: lightgray;
@@ -74,14 +59,11 @@ HTML {
     font-family: SokaThin;
     font-size: large;
     border: 1px solid silver;
-    box-shadow: 10px 10px silver;
-    
 }
 
 .pBox {
     display: flex;
 }
-
 
 .plogo {
     width: 6%;
@@ -91,8 +73,8 @@ HTML {
     border: solid white 1px;
 }
 
-/* Tech Skills */
 
+/* Tech Skills */
 .techShell {
     width: auto;
     height: 100%;
@@ -113,6 +95,7 @@ HTML {
     font-weight: bold;
     font-style: italic;
     border: 1px white solid;
+    padding-bottom: 1%;
 }
 
 .techLogo {
@@ -120,8 +103,8 @@ HTML {
     height: 8%;
 }
 
-/* Education */
 
+/* Education */
 .edShell {
     width: auto;
     color: lightgray;
@@ -131,10 +114,8 @@ HTML {
     font-family: SokaThin;
     font-size: large;
     padding-bottom: 4%;
-    box-shadow: 10px 10px silver;
     border: 1px solid silver;
 }
-
 
 .edlogo {
     width: 8%;
@@ -144,7 +125,6 @@ HTML {
 
 
 /* WorkRecord */
-
 .wkShell {
     width: auto;
     color: lightgray;
@@ -153,7 +133,6 @@ HTML {
     font-family: SokaThin;
     font-size: large;
     padding-bottom: 4%;
-
 }
 
 li {
@@ -166,8 +145,8 @@ li {
     border: solid black 1px;
 }
 
-/*Contact Page*/
 
+/*Contact Page*/
 .contactlogo {
     width: 8%;
     height: 8%;
@@ -188,7 +167,6 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 10px 10px silver;
     border: 1px solid silver;
     font-family: SokaRegular;
     font-size: 150%;
@@ -196,7 +174,7 @@ li {
     padding-bottom: 1%;
 }
 
-.contLeft {
+.contLeft, .contRight {
     display: flex;
 }
 
@@ -204,12 +182,8 @@ li {
     margin-right: 3%;
 }
 
-.contRight {
-    display: flex;
-}
 
 /* AboutMe */
-
 .AMShell {
     font-family: SokaThin;
     color: lightgray;
@@ -219,7 +193,6 @@ li {
     background-color: transparent;
     padding: 3%;
     margin-top: 10%;
-
 }
 
 .AMpic {
@@ -230,8 +203,8 @@ li {
     margin: 2%;
 }
 
-/* KSDemo */
 
+/* KSDemo */
 .KSBox {
     height: 100vh;
     width: auto;
