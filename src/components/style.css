@@ -9,7 +9,7 @@ HTML {
 
 /*Dashboard*/
 .dashShell {
-    width: auto;
+    width: 100%;
     height: 450%;
     background-color: rgba(0, 0, 0, .2);
     display: flex;
@@ -42,8 +42,8 @@ HTML {
 }
 
 .dashBtn {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     background-color: transparent;
     color: silver;
 }
@@ -51,7 +51,7 @@ HTML {
 
 /* Projects */
 .pShell {
-    width: auto;
+    width: 100%;
     color: lightgray;
     height: 150%;
     background-color: rgba(0, 0, 0, .2);
@@ -76,7 +76,7 @@ HTML {
 
 /* Tech Skills */
 .techShell {
-    width: auto;
+    width: 100%;
     height: 100%;
     background-color: transparent;
     display: flex;
@@ -106,7 +106,7 @@ HTML {
 
 /* Education */
 .edShell {
-    width: auto;
+    width: 100%;
     color: lightgray;
     height:150%;
     background-color: rgba(0, 0, 0, .2);
@@ -126,7 +126,7 @@ HTML {
 
 /* WorkRecord */
 .wkShell {
-    width: auto;
+    width: 100%;
     color: lightgray;
     height: 150%;
     padding: 2%;
@@ -160,7 +160,7 @@ li {
 }
 
 .contShell {
-    width: auto;
+    width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .2);
     color: lightgray;
@@ -188,7 +188,7 @@ li {
     font-family: SokaThin;
     color: lightgray;
     font-size: medium;
-    width: auto;
+    width: 100%;
     height: 150%;
     background-color: transparent;
     padding: 3%;
@@ -207,7 +207,7 @@ li {
 /* KSDemo */
 .KSBox {
     height: 100vh;
-    width: auto;
+    width: 100%;
     margin-top: -2%;
     color: lightgray;
     background-color: rgba(0, 0, 0, .2);
