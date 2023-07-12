@@ -80,10 +80,3 @@ code {
     monospace;
 }
 
-
-body {
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 10px;
-}
