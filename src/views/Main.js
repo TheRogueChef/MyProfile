@@ -11,28 +11,41 @@ import '../components/style.css';
 
 
 const DisplayPage = () => {
+
+    const [width, setWidth] = React.useState(window.innerWidth);
+
+    React.useEffect(() => {
+        const handleWindowResize = () => setWidth(window.innerWidth);
+        window.addEventListener("resize", handleWindowResize);
+        return () => window.removeEventListener("resize", handleWindowResize);
+    }, []);
+
+
+
+
+
     return (
         <div>
             <Element name="top">
-            <Dashboard />
+                <Dashboard />
             </Element>
             <Element name="about">
-            <AboutMe />
+                <AboutMe />
             </Element>
             <Element name="projects">
-            <Projects />
+                <Projects />
             </Element>
             <Element name="techSkills">
-            <TechSkills />
+                <TechSkills />
             </Element>
             <Element name="education">
-            <Education />
+                <Education />
             </Element>
             <Element name="experience">
-            <WorkRecord />
+                <WorkRecord />
             </Element>
             <Element name="contact">
-            <Contact />
+                <Contact />
             </Element>
         </div>
     )
