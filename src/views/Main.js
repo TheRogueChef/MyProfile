@@ -10,6 +10,7 @@ import Projects from '../components/Projects';
 import '../components/style.css';
 
 
+
 const DisplayPage = () => {
     return (
         <div>
