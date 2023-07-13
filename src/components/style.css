@@ -1,11 +1,12 @@
-
-
     HTML {
         text-align: center;
         background: url(images/PlainBlue.jpg);
         background-size: cover;
     }
 
+    main {
+        width: auto;
+    }
 
     /*Dashboard*/
     .dashShell {
@@ -186,6 +187,3 @@
         font-family: SokaThin;
         font-size: 175%;
     }
-
-
-
