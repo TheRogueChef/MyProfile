@@ -9,7 +9,13 @@ import TechSkills from '../components/TechSkills';
 import Projects from '../components/Projects';
 import '../components/style.css';
 
+const columns = document.querySelectorAll('.column');
 
+if (window.innerWidth < 768) {
+    columns.forEach((column) => {
+        column.classList.add('stacked');
+    });
+}
 
 const DisplayPage = () => {
     return (
