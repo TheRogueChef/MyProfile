@@ -28,11 +28,7 @@ import django from './images/django.png';
 import '../components/style.css';
 
 
-
-
 const TechSkills = () => {
-
-
     return (
         <div  >
             <h1 style={{fontFamily: 'SokaRegular', textDecoration: 'underline', color: 'silver', textShadow: '.2rem .2rem black' }}>Tech Skills</h1>

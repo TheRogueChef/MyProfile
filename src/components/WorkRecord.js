@@ -7,6 +7,7 @@ import EurestLogo from './images/EurestLogo.jpg';
 import KizukiLogo from './images/KizukiLogo.png';
 import '../components/style.css';
 
+
 const WorkRecord = () => {
     return (
         <div className='wkShell'>

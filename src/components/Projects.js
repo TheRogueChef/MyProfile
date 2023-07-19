@@ -4,9 +4,9 @@ import { Link as ScrollLink } from 'react-scroll';
 import { Image } from 'react-bootstrap';
 import KitSyncLogo from './images/KitSyncLogo.PNG';
 import Author from './images/Author.jpg'; 
-
 import NewProduct from './images/NewProduct.PNG';
 import '../components/style.css';
+
 
 const Projects = () => {
     return (

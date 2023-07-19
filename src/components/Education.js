@@ -3,8 +3,8 @@ import { Link } from 'react-scroll';
 import { Image } from 'react-bootstrap';
 import CDLogo from './images/CDLogo.png';
 import SSCC from './images/SSCCLogo.jpg';
-
 import '../components/style.css';
+
 
 const Education = () => {
     return (

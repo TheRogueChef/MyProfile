@@ -3,7 +3,6 @@ import { Link } from 'react-scroll';
 import '../components/style.css';
 
 
-
 const Dashboard = () => {
     return (
         <div className='dashShell' >

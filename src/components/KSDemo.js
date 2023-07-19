@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import video from './videos/KitSyncDemo.mp4';
 
+
 const KSDemo = () => {
     return (
         <div className='DemoBox'>
