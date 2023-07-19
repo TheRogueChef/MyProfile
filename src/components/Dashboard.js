@@ -9,10 +9,10 @@ const Dashboard = () => {
         <div className='dashShell' >
             <div className='dashLeft'>
                 <h1>Erik</h1>
-                <h1 style={{ marginTop: '-3rem' }}>Carlson</h1>
-                <h6 style={{ marginTop: '-.75rem' }}>Ex Chef gone rogue in the world of tech!!</h6>
+                <h1 style={{ marginTop: '-1rem'}}>Carlson</h1>
+                <h3 >Ex Chef gone rogue in the world of tech!!</h3>
             </div>
-            <p style={{ color: 'silver', fontSize: '2rem'}}>~</p>
+            <p style={{ color: 'silver', fontSize: '1rem'}}>~</p>
             <div className='dashRight'>
                 <Link to='about' smooth={true} duration={500} >About Me</Link>
                 <br /><br />
@@ -25,6 +25,7 @@ const Dashboard = () => {
                 <Link to='experience' smooth={true} duration={500}>Experience</Link>
                 <br /><br />
                 <Link to='contact' smooth={true} duration={500}>Contact</Link>
+                <br /><br />
             </div>
         </div >
     )

@@ -48,6 +48,7 @@ const TechSkills = () => {
                     <Image className='techLogo' src={CSS} alt='...'/>- CSS
                     <br /><br />
                     <Image className='techLogo' src={SQL} alt='...'/>- SQL
+                    <br /> <br />
                 </div>
                 <div className='techBox'>
                     <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Frameworks</p>
@@ -65,6 +66,7 @@ const TechSkills = () => {
                     <Image className='techLogo' src={bootstrap} alt='...'/>- Bootstrap
                     <br /><br /> 
                     <Image className='techLogo' src={tailwinds} alt='...'/>- Tailwinds
+                    <br /> <br />
                 </div>
                 <div className='techBox'>
                     <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Databases</p>
@@ -73,6 +75,7 @@ const TechSkills = () => {
                     <Image className='techLogo' src={mysql} alt='...'/>- MySQL
                     <br /><br /> 
                     <Image className='techLogo' src={mongoose} alt='...'/>- Mongoose
+                    <br /> <br />
                 </div>
                 <div className='techBox'>
                     <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Tools</p>
@@ -95,6 +98,7 @@ const TechSkills = () => {
                     <Image className='techLogo' src={ajax} alt='...'/>- AJAX
                     <br /> <br />
                     <Image className='techLogo' src={django} alt='...'/>- Django 2.2
+                    <br /> <br />
                 </div>
             </div>
             <div>

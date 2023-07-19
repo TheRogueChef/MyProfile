@@ -11,7 +11,7 @@
     /*Dashboard*/
     .dashShell {
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         background-color: rgba(0, 0, 0, .2);
         display: flex;
         flex-direction: column;
@@ -25,7 +25,7 @@
 
     .dashLeft {
         font-family: Nevolasty;
-        font-size: 2rem;
+        font-size: 1rem;
         text-shadow: .4rem .4rem black;
         font-style: italic;
         transform: rotate(-10deg);
@@ -78,7 +78,7 @@
         font-style: italic;
         border: 1px white solid;
         box-shadow: .25rem .25rem black;
-        padding-bottom: 1%;
+
         margin: 1rem;
         font-size: .5rem;
     }
