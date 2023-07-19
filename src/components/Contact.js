@@ -7,28 +7,20 @@ import linkedinLogo from './images/linkedin-logo-png-1826.png';
 import '../components/style.css';
 
 
-
-
 const Contact = () => {
-
-
     return (
         <div className='contShell'>
             <div>
-                <Image className='contactlogo' src={linkedinLogo} alt='...'/>
-                <h3>linkedin.com/in/erikdcarlson</h3>
+                <Image className='contactlogo' src={phone} alt='...'/>425-466-6581
+                <br /> <br />   
+                <Image className='contactlogo' src={linkedinLogo} alt='...'/><p>linkedin.com/in/erikdcarlson</p>
             </div>
             <div>
-            <Image className='contactlogo2' src={phone} alt='...'/>425-466-6581
-                <hr/> 
-            <Image className='contactlogo2' src={Email} alt='...'/>theroguechef@comcast.net
-            </div>
-            <div> 
-            <Image className='contactlogo' src={githubLogo} alt='...'/>
-                <h3>github.com/TheRogueChef</h3>
+                <Image className='contactlogo' src={Email} alt='...'/>theroguechef@comcast.net
+                <br /><br />
+                <Image className='contactlogo' src={githubLogo} alt='...'/><p>github.com/TheRogueChef</p>
             </div>
         </div>
     )
 }
-
 export default Contact;
