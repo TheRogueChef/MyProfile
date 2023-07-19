@@ -35,11 +35,10 @@ const TechSkills = () => {
 
     return (
         <div  >
-            <h1 style={{ marginTop:'4%',fontFamily: 'SokaRegular', textDecoration: 'underline', color: 'lightGray', textShadow: '4px 4px black' }}>Technical Skills</h1>
-
+            <h1 style={{fontFamily: 'SokaRegular', textDecoration: 'underline', color: 'silver', textShadow: '.2rem .2rem black' }}>Technical Skills</h1>
             <div className='techShell'>
                 <div className='techBox'>
-                    <h3 style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Languages</h3>
+                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Languages</p>
                     <Image className='techLogo' src={python} alt='...'/>- Python
                     <br /><br />                   
                     <Image className='techLogo' src={javascript} alt='...'/>- JavaScript
@@ -51,7 +50,8 @@ const TechSkills = () => {
                     <Image className='techLogo' src={SQL} alt='...'/>- SQL
                 </div>
                 <div className='techBox'>
-                    <h3 style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Frameworks/Libraries</h3>
+                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Frameworks</p>
+                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Libraries</p>
                     <Image className='techLogo' src={react} alt='...'/>- REACT
                     <br /><br /> 
                     <Image className='techLogo' src={react} alt='...'/>- REACT Native
@@ -67,7 +67,7 @@ const TechSkills = () => {
                     <Image className='techLogo' src={tailwinds} alt='...'/>- Tailwinds
                 </div>
                 <div className='techBox'>
-                    <h3 style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Databases</h3>
+                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Databases</p>
                     <Image className='techLogo' src={MongoDB} alt='...'/>- MongoDB
                     <br /><br /> 
                     <Image className='techLogo' src={mysql} alt='...'/>- MySQL
@@ -75,7 +75,7 @@ const TechSkills = () => {
                     <Image className='techLogo' src={mongoose} alt='...'/>- Mongoose
                 </div>
                 <div className='techBox'>
-                    <h3 style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Tools</h3>
+                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Tools</p>
                     <Image className='techLogo' src={axios} alt='...'/>- Axios
                     <br /><br />
                     <Image className='techLogo' src={postman} alt='...'/>- Postman
@@ -96,10 +96,10 @@ const TechSkills = () => {
                     <br /> <br />
                     <Image className='techLogo' src={django} alt='...'/>- Django 2.2
                 </div>
-
             </div>
-            <div style={{ marginBottom: '4%'}}>
-                <Link style={{  color: 'silver', fontFamily: 'SokaThin' }} to='top'  smooth={true} duration={500}>Back to Top</Link>
+            <div>
+                <Link style={{  fontSize: '.75rem',color: 'red', fontFamily: 'SokaThin' }} to='top'  smooth={true} duration={500}>Back to Top</Link>
+                <br /><br />
             </div>
         </div>
     )

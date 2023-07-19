@@ -8,11 +8,11 @@ const Dashboard = () => {
     return (
         <div className='dashShell' >
             <div className='dashLeft'>
-                <h1 style={{ marginTop: '1%'}}>Erik</h1>
-                <h1 style={{ marginTop: '-11%' }}>Carlson</h1>
-                <h6 style={{ marginTop: '-6%' }}>Ex Chef gone rogue in the world of tech!!</h6>
+                <h1>Erik</h1>
+                <h1 style={{ marginTop: '-3rem' }}>Carlson</h1>
+                <h6 style={{ marginTop: '-.75rem' }}>Ex Chef gone rogue in the world of tech!!</h6>
             </div>
-            <h1 style={{ color: 'silver', fontSize: '100px'}}>~</h1>
+            <p style={{ color: 'silver', fontSize: '2rem'}}>~</p>
             <div className='dashRight'>
                 <Link to='about' smooth={true} duration={500} >About Me</Link>
                 <br /><br />

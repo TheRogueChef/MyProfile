@@ -11,10 +11,10 @@ const WorkRecord = () => {
     return (
         <div className='wkShell'>
             <br  /><br  />
-            <h1 style={{ fontFamily: 'SokaRegular', textDecoration:'underline', textShadow: '4px 4px black'}}>Work Experience</h1>
+            <h1 style={{ fontFamily: 'SokaRegular', textDecoration:'underline', textShadow: '.2rem .2rem black'}}>Work Experience</h1>
             <br  /><br  />
             <div className='wkBox'>
-                <Image className='plogo' src={siftedlogo} alt='...' />
+                <Image className='wklogo' src={siftedlogo} alt='...' />
                 <h2>Managing Chef | Sifted | Seattle, WA</h2>
                 <h3>4/2022 - 10/2022</h3>
                 <ul>
@@ -56,10 +56,11 @@ const WorkRecord = () => {
                     <li>- Lowered Central Facility food costs by 7%</li>
                     <li>- Lowered Operating costs by 20%</li>
                 </ul>
-                <br  /><br  /><br  /><br />
+                <br  />
             </div>
             <div>
-            <Link to='top' className="dashBtn" smooth={true} duration={500}>Back to Top</Link>
+            <Link to='top' style={{color:'red'}} smooth={true} duration={500}>Back to Top</Link>
+            <br /><br />
             </div>
         </div >
     )
