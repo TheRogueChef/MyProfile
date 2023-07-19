@@ -10,7 +10,7 @@ const Education = () => {
     return (
         <div className='edShell'>
             <br  /><br  />
-            <h1 style={{ fontFamily: 'SokaRegular', textDecoration:'underline', textShadow: '.2rem .2rem black'}}>Education/Certificates</h1>
+            <h1 style={{ fontFamily: 'SokaRegular', textDecoration:'underline', textShadow: '.2rem .2rem black'}}>Education</h1>
             <br  /><br  />
             <div>
                 <Image className='edlogo' src={CDLogo} alt='...' />

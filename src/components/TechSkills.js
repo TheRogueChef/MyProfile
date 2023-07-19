@@ -35,7 +35,7 @@ const TechSkills = () => {
 
     return (
         <div  >
-            <h1 style={{fontFamily: 'SokaRegular', textDecoration: 'underline', color: 'silver', textShadow: '.2rem .2rem black' }}>Technical Skills</h1>
+            <h1 style={{fontFamily: 'SokaRegular', textDecoration: 'underline', color: 'silver', textShadow: '.2rem .2rem black' }}>Tech Skills</h1>
             <div className='techShell'>
                 <div className='techBox'>
                     <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Languages</p>

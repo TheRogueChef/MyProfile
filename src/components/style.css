@@ -67,19 +67,21 @@
         align-items: start;
         justify-content: center;
         font-family: SokaThin;
-        font-size: .75rem;
+        font-size: 1rem;
         color: silver;
+        padding: .25rem;
     }
 
     .techBox {
-        width: 10rem;
+        width: 25%;
         height: 100%;
         color: silver;
         font-style: italic;
         border: 1px white solid;
         box-shadow: .25rem .25rem black;
         margin: 1rem;
-        font-size: .5rem;
+        font-size: .75rem;
+        
     }
 
     .techLogo {
@@ -94,7 +96,7 @@
         height: 100%;
         background-color: rgba(0, 0, 0, .2);
         font-family: SokaThin;
-        font-size: .8rem;
+        font-size: 1rem;
         border: .1rem solid silver;
     }
 
@@ -111,7 +113,7 @@
         color: silver;
         height: 100%;
         font-family: SokaThin;
-        font-size: .75rem;
+        font-size: 1rem;
     }
 
     li {
@@ -127,8 +129,8 @@
 
     /*Contact Page*/
     .contactlogo{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1rem;
+        height: 1rem;
  
     }
 
@@ -174,5 +176,5 @@
         color: silver;
         background-color: rgba(0, 0, 0, .2);
         font-family: SokaThin;
-        font-size: 175%;
+        font-size: 1rem;
     }

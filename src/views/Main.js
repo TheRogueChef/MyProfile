@@ -8,7 +8,7 @@ import AboutMe from '../components/AboutMe';
 import TechSkills from '../components/TechSkills';
 import Projects from '../components/Projects';
 import '../components/style.css';
-import '../components/responsive.css';
+
 
 const columns = document.querySelectorAll('.column');
 
