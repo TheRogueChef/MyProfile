@@ -8,6 +8,12 @@
         width: 100%;
     }
 
+    .CTitles {
+        font-family: SokaRegular;
+        text-decoration: underline;
+        text-shadow: .2rem .2rem black;
+    }
+
     /*Dashboard*/
     .dashShell {
         width: 100vw;
@@ -41,6 +47,7 @@
         font-family: SokaThin;
         font-size: 1rem;
         border: .1rem solid silver;
+        text-align: inherit;
     }
 
     .pLinkBox {
@@ -64,6 +71,7 @@
         font-family: SokaRegular;
         font-size: 1rem;
         color: silver;
+        text-shadow: .2rem .2rem black;;
     }
 
     .techBox {
@@ -72,10 +80,12 @@
         color: silver;
         font-style: italic;
         border: .1rem white solid;
+        border-radius: 25%;
         box-shadow: .25rem .25rem black;
         font-size: 1rem;
-        margin: 1%;
+        margin-bottom: 1%;
         background-color: rgba(0, 0, 0, .2);
+        font-family: SokaThin;
     }
 
     .techGuts {
@@ -115,6 +125,7 @@
 
     li {
         list-style-type: '';
+        text-align: inherit;
     }
 
     .wklogo {
@@ -138,9 +149,9 @@
         align-items: center;
         justify-content: space-evenly;
         border: .1rem solid silver;
-        font-family: SokaRegular;
+        font-family: SokaUltraBold;
         font-size: .5rem;
-        padding: .5rem;
+        padding-top: 1%;
     }
 
     /* AboutMe */
@@ -151,12 +162,13 @@
         width: 100vw;
         height: 100%;
         background-color: transparent;
+        text-align: inherit;
     }
 
     .AMpic {
         border: .1rem silver solid;
-        border-radius: 2%;
-        height: 8rem;
+        box-shadow: .25rem .25rem black;
+        height: 15rem;
         margin: 1rem;
     }
 

@@ -8,10 +8,10 @@ const Dashboard = () => {
         <div className='dashShell' >
             <div className='dashLeft'>
                 <h1>Erik</h1>
-                <h1 style={{ marginTop: '-1rem'}}>Carlson</h1>
+                <h1 style={{ marginTop: '-1.5%'}}>Carlson</h1>
                 <h3 >Ex Chef gone rogue in the world of tech!!</h3>
             </div>
-            <p style={{ color: 'silver', fontSize: '1rem'}}>~</p>
+            <p>~</p>
             <div className='dashRight'>
                 <Link to='about' smooth={true} duration={500} >About Me</Link>
                 <br /><br />

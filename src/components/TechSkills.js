@@ -32,9 +32,9 @@ const TechSkills = () => {
     return (
         <div  >
             <div className='techShell'>
-            <h1 style={{  textDecoration: 'underline', color: 'silver', textShadow: '.2rem .2rem black' }}>Tech Skills</h1>
+            <h1 style={{  textDecoration: 'underline' }}>Tech Skills</h1>
                 <div className='techBox'>
-                    <h3 style={{ textDecoration: 'underline' }}>Languages</h3>
+                    <h3 style={{ fontFamily: 'SokaRegular' }}>Languages</h3>
                     <div className='techGuts'>
                         <div>
                             <Image className='techLogo' src={python} alt='...'/>
@@ -59,7 +59,7 @@ const TechSkills = () => {
                     </div>
                 </div>
                 <div className='techBox'>
-                    <h3 style={{  textDecoration: 'underline' }}>Frameworks/Libraries</h3>
+                    <h3 style={{  fontFamily: 'SokaRegular' }}>Frameworks/Libraries</h3>
                     <div className='techGuts'>
                         <div>
                             <Image className='techLogo' src={react} alt='...'/>
@@ -95,7 +95,7 @@ const TechSkills = () => {
                     </div>
                 </div>
                 <div className='techBox'>
-                    <h3 style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Databases</h3>
+                    <h3 style={{ fontFamily: 'SokaRegular' }}>Databases</h3>
                     <div className='techGuts'>
                         <div>
                             <Image className='techLogo' src={MongoDB} alt='...'/>
@@ -112,7 +112,7 @@ const TechSkills = () => {
                     </div>
                 </div>
                 <div className='techBox'>
-                    <h3 style={{ textDecoration: 'underline' }}>Tools</h3>
+                    <h3 style={{ fontFamily: 'SokaRegular' }}>Tools</h3>
                     <div className='techGuts'>
                         <div>
                             <Image className='techLogo' src={axios} alt='...'/>

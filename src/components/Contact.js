@@ -11,14 +11,24 @@ const Contact = () => {
     return (
         <div className='contShell'>
             <div>
-                <Image className='contactlogo' src={phone} alt='...'/>425-466-6581
-                <br /> <br />   
-                <Image className='contactlogo' src={linkedinLogo} alt='...'/><p>linkedin.com/in/erikdcarlson</p>
+                <div>
+                    <Image className='contactlogo' src={phone} alt='...'/>
+                    <p>425-466-6581</p>
+                </div>  
+                <div>
+                    <Image className='contactlogo' src={linkedinLogo} alt='...'/>
+                    <p>linkedin.com/in/erikdcarlson</p>
+                </div>
             </div>
             <div>
-                <Image className='contactlogo' src={Email} alt='...'/>theroguechef@comcast.net
-                <br /><br />
-                <Image className='contactlogo' src={githubLogo} alt='...'/><p>github.com/TheRogueChef</p>
+                <div>
+                    <Image className='contactlogo' src={Email} alt='...'/>
+                    <p>theroguechef@comcast.net</p>
+                </div>
+                <div>
+                    <Image className='contactlogo' src={githubLogo} alt='...'/>
+                    <p>github.com/TheRogueChef</p>
+                </div>
             </div>
         </div>
     )
