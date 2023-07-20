@@ -59,24 +59,28 @@
         width: 100vw;
         height: 100%;
         background-color: transparent;
-        display: flex;
         align-items: start;
         justify-content: center;
-        font-family: SokaThin;
+        font-family: SokaRegular;
         font-size: 1rem;
         color: silver;
     }
 
     .techBox {
-        width: 20%;
+        text-align: center;
         height: 100%;
         color: silver;
         font-style: italic;
         border: .1rem white solid;
         box-shadow: .25rem .25rem black;
-        margin: 2%;
-        font-size: .7rem;
-        
+        font-size: 1rem;
+        margin: 1%;
+        background-color: rgba(0, 0, 0, .2);
+    }
+
+    .techGuts {
+        display:flex;
+        justify-content: space-evenly;
     }
 
     .techLogo {

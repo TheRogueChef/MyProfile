@@ -31,74 +31,139 @@ import '../components/style.css';
 const TechSkills = () => {
     return (
         <div  >
-            <h1 style={{fontFamily: 'SokaRegular', textDecoration: 'underline', color: 'silver', textShadow: '.2rem .2rem black' }}>Tech Skills</h1>
             <div className='techShell'>
+            <h1 style={{  textDecoration: 'underline', color: 'silver', textShadow: '.2rem .2rem black' }}>Tech Skills</h1>
                 <div className='techBox'>
-                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Languages</p>
-                    <Image className='techLogo' src={python} alt='...'/>- Python
-                    <br /><br />                   
-                    <Image className='techLogo' src={javascript} alt='...'/>- JavaScript
-                    <br /><br />
-                    <Image className='techLogo' src={HTML} alt='...'/>- HTML
-                    <br /><br />
-                    <Image className='techLogo' src={CSS} alt='...'/>- CSS
-                    <br /><br />
-                    <Image className='techLogo' src={SQL} alt='...'/>- SQL
-                    <br /> <br />
+                    <h3 style={{ textDecoration: 'underline' }}>Languages</h3>
+                    <div className='techGuts'>
+                        <div>
+                            <Image className='techLogo' src={python} alt='...'/>
+                            <p>Python</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={javascript} alt='...'/>
+                            <p>JavaScript</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={HTML} alt='...'/>
+                            <p>HTML</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={CSS} alt='...'/>
+                            <p>CSS</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={SQL} alt='...'/>
+                            <p>SQL</p>
+                        </div>
+                    </div>
                 </div>
                 <div className='techBox'>
-                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Frameworks</p>
-                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Libraries</p>
-                    <Image className='techLogo' src={react} alt='...'/>- REACT
-                    <br /><br /> 
-                    <Image className='techLogo' src={react} alt='...'/>- REACT Native
-                    <br /><br />
-                    <Image className='techLogo' src={Express} alt='...'/>- Express (ES6)
-                    <br /><br /> 
-                    <Image className='techLogo' src={nodejs} alt='...'/>- Node.js
-                    <br /><br /> 
-                    <Image className='techLogo' src={flask} alt='...'/>- Flask
-                    <br /><br /> 
-                    <Image className='techLogo' src={bootstrap} alt='...'/>- Bootstrap
-                    <br /><br /> 
-                    <Image className='techLogo' src={tailwinds} alt='...'/>- Tailwinds
-                    <br /> <br />
+                    <h3 style={{  textDecoration: 'underline' }}>Frameworks/Libraries</h3>
+                    <div className='techGuts'>
+                        <div>
+                            <Image className='techLogo' src={react} alt='...'/>
+                            <p>REACT</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={react} alt='...'/>
+                            <p>REACT Native</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={Express} alt='...'/>
+                            <p>Express(ES6)</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={nodejs} alt='...'/>
+                            <p>Node.js</p>
+                        </div>
+                    </div>
+                        <br />
+                    <div className='techGuts'>
+                        <div>
+                            <Image className='techLogo' src={flask} alt='...'/>
+                            <p>Flask</p>
+                        </div>
+                        <div> 
+                            <Image className='techLogo' src={bootstrap} alt='...'/>
+                            <p>Bootstrap</p>
+                        </div>
+                        <div> 
+                            <Image className='techLogo' src={tailwinds} alt='...'/>
+                            <p>Tailwinds</p>
+                        </div>
+                    </div>
                 </div>
                 <div className='techBox'>
-                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Databases</p>
-                    <Image className='techLogo' src={MongoDB} alt='...'/>- MongoDB
-                    <br /><br /> 
-                    <Image className='techLogo' src={mysql} alt='...'/>- MySQL
-                    <br /><br /> 
-                    <Image className='techLogo' src={mongoose} alt='...'/>- Mongoose
-                    <br /> <br />
+                    <h3 style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Databases</h3>
+                    <div className='techGuts'>
+                        <div>
+                            <Image className='techLogo' src={MongoDB} alt='...'/>
+                            <p>MongoDB</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={mysql} alt='...'/>
+                            <p>MySQL</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={mongoose} alt='...'/>
+                            <p>Mongoose</p>
+                        </div>
+                    </div>
                 </div>
                 <div className='techBox'>
-                    <p style={{ fontFamily: 'SokaRegular', textDecoration: 'underline' }}>Tools</p>
-                    <Image className='techLogo' src={axios} alt='...'/>- Axios
-                    <br /><br />
-                    <Image className='techLogo' src={postman} alt='...'/>- Postman
-                    <br /> <br />
-                    <Image className='techLogo' src={restapi} alt='...'/>- REST API
-                    <br /> <br />
-                    <Image className='techLogo' src={JSON} alt='...'/>- JSON
-                    <br /> <br />
-                    <Image className='techLogo' src={MySQLWorkbench} alt='...'/>- My SQL Workbench
-                    <br /><br />
-                    <Image className='techLogo' src={Git} alt='...'/>- Git
-                    <br /><br />
-                    <Image className='techLogo' src={GitHub} alt='...'/>- GitHub
-                    <br /><br />
-                    <Image className='techLogo' src={balsamiq} alt='...'/>- Balsamiq
-                    <br /><br />
-                    <Image className='techLogo' src={ajax} alt='...'/>- AJAX
-                    <br /> <br />
-                    <Image className='techLogo' src={django} alt='...'/>- Django 2.2
-                    <br /> <br />
+                    <h3 style={{ textDecoration: 'underline' }}>Tools</h3>
+                    <div className='techGuts'>
+                        <div>
+                            <Image className='techLogo' src={axios} alt='...'/>
+                            <p>Axios</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={postman} alt='...'/>
+                            <p>Postman</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={restapi} alt='...'/>
+                            <p>REST API</p>
+                        </div>
+                        
+                        <div>
+                            <Image className='techLogo' src={JSON} alt='...'/>
+                            <p>JSON</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={MySQLWorkbench} alt='...'/>
+                            <p>My SQL Workbench</p>
+                        </div>
+                    </div>
+                        <br />
+                    <div className='techGuts'>
+                        <div>
+                            <Image className='techLogo' src={Git} alt='...'/>
+                            <p>Git</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={GitHub} alt='...'/>
+                            <p>GitHub</p>
+                        </div>
+                        
+                        <div>
+                            <Image className='techLogo' src={balsamiq} alt='...'/>
+                            <p>Balsamiq</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={ajax} alt='...'/>
+                            <p>AJAX</p>
+                        </div>
+                        <div>
+                            <Image className='techLogo' src={django} alt='...'/>
+                            <p>Django 2.2</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
-                <Link style={{  fontSize: '.75rem',color: 'red', fontFamily: 'SokaThin' }} to='top'  smooth={true} duration={500}>Back to Top</Link>
+                <Link style={{color: 'red', fontFamily: 'SokaThin' }} to='top'  smooth={true} duration={500}>Back to Top</Link>
                 <br /><br />
             </div>
         </div>
