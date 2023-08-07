@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import video from './videos/KitSyncDemo.mp4';
+import video from './videos/Kitchen_Sync_Demo(v.2).mp4';
 
 
 const KSDemo = () => {
