@@ -2,7 +2,7 @@ import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import { Image } from 'react-bootstrap';
-import KitSyncLogo from './images/KitSyncLogo.PNG';
+import KSLogo from './images/KSLogo.PNG';
 import MTT from './images/MTT_Logo.PNG'; 
 import NewProduct from './images/NewProduct.PNG';
 import '../components/style.css';
@@ -32,7 +32,7 @@ const Projects = () => {
             <p>Mt Tribe Tracker was a site designed for friends to gather. It offers an events page, a tribe diary, an ongiong chat, an embedded Spotify player with tribe playlist, a famlilies page, a photo gallery with tribe added photos and finally a random API call function. When finished it will have some settings (day/night) and be fully responsive on all devices. Stay tuned...</p>
             <br /><br /><br />
             <div className='pBox'>
-                    <Image className='plogo' src={KitSyncLogo} alt='...' />
+                    <Image className='plogo' src={KSLogo} alt='...' />
                     <h1 style={{ fontFamily: 'SokaRegular'}}>Kitchen Sync</h1>
                 <div className='pLinkBox'>
                     <br/>
