@@ -8,8 +8,8 @@ const Dashboard = () => {
         <div className='dashShell' >
             <div className='dashLeft'>
                 <h1>Erik</h1>
-                <h1 style={{ marginTop: '-1.5%'}}>Carlson</h1>
-                <h3 >Ex Chef gone rogue in the world of tech!!</h3>
+                <h1>Carlson</h1>
+                <h4 >Ex Chef gone rogue in the world of tech!!</h4>
             </div>
             <p>~</p>
             <div className='dashRight'>

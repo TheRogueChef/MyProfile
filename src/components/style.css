@@ -30,13 +30,41 @@
     }
 
     .dashLeft {
+        transform: translateX(-100%) scale(0.2);
+        opacity: 0;
+        animation: slideIn 1s forwards, fadeIn 2s forwards; 
         font-family: Nevolasty;
         font-size: 1rem;
         text-shadow: .4rem .4rem black;
         font-style: italic;
         transform: rotate(-10deg);
-
     }
+
+    @keyframes slideIn {
+        to {
+        transform: translateX(0) scale(1);
+        }
+    }
+
+    @keyframes fadeIn {
+        to {
+        opacity: 1;
+        }
+    }
+
+    .dashLeft h1, .dashLeft h3 {
+    font-size: 12px;
+    animation: fontSizeIn 2s forwards;
+    }
+
+    
+@keyframes fontSizeIn {
+    to {
+    font-size: 3rem;
+    }
+    }
+
+
 
     /* Projects */
     .pShell {
