@@ -49,8 +49,7 @@ const Projects = () => {
                 </ul>
             </div>
             <p>Kitchen Sync was designed to be a home cooks recipe library, allowing them to create their own or alter an already existing recipe. It makes API calls both for a randomly generated recipe or a search for recipes to use a sepcified item. It offers a login and registration function with full CRUD functionality.</p>
-            <br /><br /><br />
-      
+            <br/><br/><br/>
             <div className='pBox'>
                     <Image className='plogo'  src={NewProduct} alt='...' />
                     <h1 style={{ fontFamily: 'SokaRegular'}}>Product Manager</h1>
