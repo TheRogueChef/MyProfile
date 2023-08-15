@@ -12,13 +12,13 @@ build:
 env:
   - name: MY_VAR_EXAMPLE
     value: "example"
+  - name: APP_PORT
+    value: "8000"
 run:
   runtime-version: 18.14.2
   command: node app.js
   network:
     port: 8000
-env:
-  - name: APP_PORT
-    value: "8000"
+
 
 
