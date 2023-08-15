@@ -18,6 +18,4 @@ run:
   network:
     port: 8000
     env: APP_PORT
-  env:
-    - name: MY_VAR_EXAMPLE
-      value: "example"
+
