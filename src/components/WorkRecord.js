@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import { Image } from 'react-bootstrap';
 import siftedlogo from './images/siftedlogo.png';
 import DAWSCOlogo from './images/DAWSCOlogo.jpg';
@@ -58,10 +57,6 @@ const WorkRecord = () => {
                     <li>- Lowered Operating costs by 20%</li>
                 </ul>
                 <br  />
-            </div>
-            <div>
-            <Link to='top' style={{color:'red'}} smooth={true} duration={500}>Back to Top</Link>
-            <br /><br />
             </div>
         </div >
     )

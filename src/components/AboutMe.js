@@ -2,7 +2,6 @@ import React from 'react';
 import { Image } from 'react-bootstrap';
 import ECpic from './images/ECpic.jpg';
 import '../components/style.css';
-import { Link } from 'react-scroll';
 
 
 const AboutMe = () => {
@@ -16,8 +15,6 @@ const AboutMe = () => {
                     <p>When I'm working, I thoroughly enjoy creating sites that deviate from the norm in terms of appearance. My primary experience lies in designing full stack JavaScript applications, using a React frontend, an Express backend, and MongoDB as my database. I also received training in Python/Flask and utilized MySQL Workbench for my schemas. I consider myself a quick learner, having been trained in both the Python and JavaScript languages, which has provided me with a solid foundation for tackling new languages. I eagerly anticipate expanding my language repertoire and honing my skills further, all in pursuit of crafting the coolest and most dynamic websites imaginable.</p>
                 </div>
             </div>
-            <br  />
-            <Link to='top' style={{color:'red'}} smooth={true} duration={500}>Back to Top</Link>
             <br  /><br  />
         </div>
     )

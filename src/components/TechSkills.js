@@ -162,10 +162,6 @@ const TechSkills = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <Link style={{color: 'red', fontFamily: 'SokaThin' }} to='top'  smooth={true} duration={500}>Back to Top</Link>
-                <br /><br />
-            </div>
         </div>
     )
 }

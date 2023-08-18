@@ -1,18 +1,25 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import '../components/style.css';
+import MobileMenu from './MobileMenu';
 
 
 const Dashboard = () => {
     return (
         <div className='dashShell' >
-            <div className='dashLeft'>
-                <h1>Erik</h1>
-                <h1>Carlson</h1>
-                <h4 >Ex Chef gone rogue in the world of tech!!</h4>
+            <MobileMenu />
+            <div>
+                <div className='dashLeft'>
+                    <p>Erik</p>
+                    <p style={{ marginTop: '-8%'}}>Carlson</p>
+                </div>
+                <div className= 'dashLeft2'>
+                    <p>Ex Chef gone rogue in the world of UI and UX!!</p>
+                </div>
             </div>
-            <p>~</p>
+            <br /><br />
             <div className='dashRight'>
+                <br /><br />
                 <Link to='about' smooth={true} duration={500} >About Me</Link>
                 <br /><br />
                 <Link  to='projects' smooth={true} duration={500}>Projects</Link>

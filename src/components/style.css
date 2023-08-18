@@ -20,8 +20,8 @@
         height: 100%;
         background-color: rgba(0, 0, 0, .2);
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
         font-family: SokaThin;
         border: .1rem solid silver;
         text-shadow: .25rem .25rem black;
@@ -30,14 +30,25 @@
     }
 
     .dashLeft {
-        transform: translateX(-100%) scale(0.2);
+        transform: translateX(-100%) scale(0.2) rotate(-10deg);
         opacity: 0;
         animation: slideIn 1s forwards, fadeIn 2s forwards; 
         font-family: Nevolasty;
-        font-size: 1rem;
+        font-size: 3rem;
         text-shadow: .4rem .4rem black;
         font-style: italic;
-        transform: rotate(-10deg);
+
+    }
+
+    .dashLeft2 {
+        transform: translateX(-100%) scale(0.2) rotate(-10deg);
+        opacity: 0;
+        animation: slideIn 1.5s forwards, fadeIn 2s forwards; 
+        font-family: Nevolasty;
+        font-size: 1.5rem;
+        text-shadow: .4rem .4rem black;
+        font-style: italic;
+        margin-bottom: 2%;
     }
 
     @keyframes slideIn {
@@ -52,8 +63,8 @@
         }
     }
 
-    .dashLeft h1, .dashLeft h3 {
-    font-size: 12px;
+    .dashLeft h1, .dashLeft h3, .dashLeft2 h1, .dashLeft2 h3 {
+    font-size: 2rem;
     animation: fontSizeIn 2s forwards;
     }
 
@@ -99,7 +110,8 @@
         font-family: SokaRegular;
         font-size: 1rem;
         color: silver;
-        text-shadow: .2rem .2rem black;;
+        text-shadow: .2rem .2rem black;
+        padding-bottom: 5%;
     }
 
     .techBox {
@@ -122,7 +134,7 @@
     }
 
     .techLogo {
-        height: 1rem;
+        height: 2rem;
     }
 
     /* Education */
@@ -164,8 +176,8 @@
 
     /*Contact Page*/
     .contactlogo{
-        width: 1rem;
-        height: 1rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     .contShell {
@@ -209,4 +221,115 @@
         background-color: rgba(0, 0, 0, .2);
         font-family: SokaThin;
         font-size: 1rem;
+    }
+
+    .scroll-to-top {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    .scroll-to-top.visible {
+        opacity: 1;
+    }
+    
+    
+    @media (max-width: 768px) {
+        .dashRight {
+            display: none;
+        }
+    }
+    
+    .menu-items {
+        color: white;
+    }
+    
+    
+    .mobile-menu {
+        margin-left: 5%;
+        position: relative;
+        display: none;
+    }
+    
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: white;
+    }
+    
+    .menu-icon {
+        display: inline-block;
+        width: 30px;
+        height: 20px;
+        padding: -10%;
+        margin: 10%;
+        position: relative;
+        transform: rotate(0deg);
+        transition: 0.5s ease-in-out;
+    }
+    
+    .menu-icon span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: silver;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: 0.25s ease-in-out;
+    }
+
+ 
+    .menu-icon span:nth-child(1) {
+        top: 0px;
+    }
+    
+    .menu-icon span:nth-child(2),
+    .menu-icon span:nth-child(3) {
+        top: 10px;
+    }
+    
+    .menu-icon span:nth-child(4) {
+        top: 20px;
+    }
+    
+    .menu-icon.open span:nth-child(1) {
+        top: 10px;
+        transform: rotate(135deg);
+    }
+    
+    .menu-icon.open span:nth-child(2) {
+        top: 10px;
+        opacity: 0;
+        left: -60px;
+    }
+    
+    .menu-icon.open span:nth-child(3) {
+        top: 10px;
+        transform: rotate(-135deg);
+    }
+    
+    .menu-icon.open span:nth-child(4) {
+        top: 10px;
+        transform: rotate(-135deg);
+    }
+    
+    @media (max-width: 768px) {
+        .mobile-menu {
+            display: block;
+        }
     }

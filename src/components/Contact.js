@@ -12,22 +12,30 @@ const Contact = () => {
         <div className='contShell'>
             <div>
                 <div>
-                    <Image className='contactlogo' src={phone} alt='...'/>
-                    <p>425-466-6581</p>
+                    <a style={{ color: 'white', textDecoration: 'none' }} href='tel:425-466-6581'>
+                        <Image className='contactlogo' src={phone} alt='...'/>
+                        <h1>425-466-6581</h1>
+                    </a>
                 </div>  
                 <div>
-                    <Image className='contactlogo' src={linkedinLogo} alt='...'/>
-                    <p>linkedin.com/in/erikdcarlson</p>
+                    <a style={{ color: 'white', textDecoration: 'none' }} href='https://www.linkedin.com/in/erikdcarlson/' target='_blank' rel='noopener noreferrer'>
+                        <Image className='contactlogo' src={linkedinLogo} alt='...'/>
+                        <h1>linkedin</h1>
+                    </a>
                 </div>
             </div>
             <div>
                 <div>
-                    <Image className='contactlogo' src={Email} alt='...'/>
-                    <p>theroguechef@comcast.net</p>
+                    <a style={{ color: 'white', textDecoration: 'none' }} href='mailto:theroguechef@comcast.net'>
+                        <Image className='contactlogo' src={Email} alt='...'/>
+                        <h1>theroguechef@comcast.net</h1>
+                    </a>
                 </div>
                 <div>
-                    <Image className='contactlogo' src={githubLogo} alt='...'/>
-                    <p>github.com/TheRogueChef</p>
+                    <a style={{ color: 'white', textDecoration: 'none' }} href='https://www.github.com/TheRogueChef/' target='_blank' rel='noopener noreferrer'>
+                        <Image className='contactlogo' src={githubLogo} alt='...'/>
+                        <h1>github</h1>
+                    </a>
                 </div>
             </div>
         </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import { Image } from 'react-bootstrap';
 import CDLogo from './images/CDLogo.png';
 import SSCC from './images/SSCCLogo.jpg';
@@ -34,10 +33,6 @@ const Education = () => {
                 </ul>
             </div>
             <br  />
-            <div>
-            <Link to='top' style={{color:'red'}} smooth={true} duration={500}>Back to Top</Link>
-            <br  /><br  />
-            </div>
         </div >
     )
 }

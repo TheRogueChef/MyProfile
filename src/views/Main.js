@@ -7,6 +7,7 @@ import Contact from '../components/Contact';
 import AboutMe from '../components/AboutMe';
 import TechSkills from '../components/TechSkills';
 import Projects from '../components/Projects';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 import '../components/style.css';
 
 const DisplayPage = () => {
@@ -33,6 +34,7 @@ const DisplayPage = () => {
             <Element name="contact">
                 <Contact />
             </Element>
+            <ScrollToTopButton />
         </div>
     )
 }
