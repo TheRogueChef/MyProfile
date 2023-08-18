@@ -10,7 +10,7 @@ const MTTDemo = () => {
             <h1>My Tribe Tracker</h1>
             <video  style={{ height: '60%', border: '2px solid silver'}} src={video} controls/>
             <br /> <br /> 
-            <Link to='/'  style={{ color: 'silver', textDecoration: 'none'}}>Home</Link>
+            <Link to='/'  style={{ color: 'white', textDecoration: 'none'}}>Home</Link>
         </div>
     )}
 

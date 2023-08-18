@@ -14,7 +14,7 @@ const Dashboard = () => {
                     <p style={{ marginTop: '-8%'}}>Carlson</p>
                 </div>
                 <div className= 'dashLeft2'>
-                    <p>Ex Chef gone rogue in the world of UI and UX!!</p>
+                    <p>~ Ex Chef gone rogue in the world of UI and UX!! ~</p>
                 </div>
             </div>
             <br /><br />
@@ -31,7 +31,7 @@ const Dashboard = () => {
                 <Link to='experience' smooth={true} duration={500}>Experience</Link>
                 <br /><br />
                 <Link to='contact' smooth={true} duration={500}>Contact</Link>
-                <br /><br />
+                <br /><br /><br />
             </div>
         </div >
     )

@@ -10,7 +10,7 @@ const AADemo = () => {
             <h1>Author, Author</h1>
             <video  style={{ height: '60%', border: '2% solid silver'}} src={video} controls/>
             <br /> <br /> 
-            <Link to='/'  style={{ color: 'silver',textDecoration: 'none'}}>Home</Link>
+            <Link to='/'  style={{ color: 'white',textDecoration: 'none'}}>Home</Link>
         </div>
     )}
 
