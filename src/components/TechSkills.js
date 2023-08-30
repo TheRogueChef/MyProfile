@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import { Image } from 'react-bootstrap';
 import python from './images/python.png';
 import javascript from './images/javascript.png';
