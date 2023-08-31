@@ -65,7 +65,7 @@ const Projects = () => {
                     <li>-Tools used: Axios, Postman, MongoDB</li>
                 </ul>
             </div>
-            <p>Kitchen Sync was designed to be a home cooks recipe library, allowing them to create their own or alter an already existing recipe. It makes API calls both for a randomly generated recipe or a search for recipes to use a sepcified item. It offers a login and registration function with full CRUD functionality.</p>  
+            <p>Kitchen Sync was designed to be a home cooks recipe library, allowing them to create their own or alter an already existing recipe. It makes API calls both for a randomly generated recipe or a search for recipes to use a specified item. It offers a login and registration function with full CRUD functionality.</p>  
             <br /><br />
         </div >
     )
