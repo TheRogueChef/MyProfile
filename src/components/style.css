@@ -20,7 +20,6 @@
         height: 100%;
         background-color: rgba(0, 0, 0, .2);
         display: flex;
-        /* flex-direction: column; */
         justify-content: space-evenly;
         font-family: SokaThin;
         border: .1rem solid silver;
@@ -37,7 +36,6 @@
         font-size: 3rem;
         text-shadow: .4rem .4rem black;
         font-style: italic;
-
     }
 
     .dashLeft2 {
