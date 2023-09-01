@@ -9,9 +9,7 @@ import TechSkills from './components/TechSkills';
 import Education from './components/Education'
 import WorkRecord from './components/WorkRecord';
 import KSDemo from './components/KSDemo';
-import AADemo from './components/AADemo';
 import ASDemo from './components/ASDemo';
-import PMDemo from './components/PMDemo';
 import MTTDemo from './components/MTTDemo';
 
 function App() {
@@ -21,15 +19,13 @@ function App() {
         <Routes>
           <Route path='/dashboard' element={<Dashboard/>} />
           <Route path='/' element={<Main/>}default/>
-          <Route path='./Projects' element={<Projects/>} />
+          <Route path='/Projects' element={<Projects/>} />
           <Route path='/AboutMe' element={<AboutMe/>} />
           <Route path='/Contact' element={<Contact/>} />
           <Route path='/TechSkills' element={<TechSkills/>} />
           <Route path='/Education' element={<Education/>} />
           <Route path='/WorkRecord' element={<WorkRecord/>} />
           <Route path='/KSDemo' element={<KSDemo/>} />
-          <Route path='/AADemo' element={<AADemo/>} />
-          <Route path='/PMDemo' element={<PMDemo/>} />
           <Route path='/ASDemo' element={<ASDemo/>} />
           <Route path='/MTTDemo' element={<MTTDemo/>} />
         </Routes>
