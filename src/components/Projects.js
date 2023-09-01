@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
-import KSLogo from '/images/KSLogo.jpg';
+import KSLogo from '//images/KSLogo.jpg';
 import MTT from './images/MTT_Logo.PNG'; 
 import ACLogo from './images/ACLogo.PNG';
 import '../components/style.css';
