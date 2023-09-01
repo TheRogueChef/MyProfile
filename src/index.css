@@ -68,12 +68,7 @@
     url("./components/fonts/QuickerMachine/QuickerMachine.ttf") format("truetype");
   font-weight: bold;
 }
-@font-face {
-  font-family: "Nevolasty";
-  src: local("Nevolasty"),
-    url("./components/fonts/nevolasty/Nevolasty.otf") format("opentype");
-  font-weight: bold;
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

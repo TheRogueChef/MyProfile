@@ -14,7 +14,7 @@ const Dashboard = () => {
                     <p style={{ marginTop: '-8%'}}>Carlson</p>
                 </div>
                 <div className= 'dashLeft2'>
-                    <p>~ Ex Chef gone rogue in the world of UI and UX!! ~</p>
+                    <p> Ex Chef gone rogue in the world of UI and UX </p>
                 </div>
             </div>
             <br /><br />

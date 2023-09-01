@@ -32,7 +32,7 @@
         transform: translateX(-100%) scale(0.2) rotate(-10deg);
         opacity: 0;
         animation: slideIn 1s forwards, fadeIn 2s forwards; 
-        font-family: Nevolasty;
+        font-family: PersianSword;
         font-size: 3rem;
         text-shadow: .4rem .4rem black;
         font-style: italic;
@@ -42,11 +42,11 @@
         transform: translateX(-100%) scale(0.2) rotate(-10deg);
         opacity: 0;
         animation: slideIn 1.5s forwards, fadeIn 2s forwards; 
-        font-family: Nevolasty;
+        font-family: PersianSword;
         font-size: 1.5rem;
         text-shadow: .4rem .4rem black;
         font-style: italic;
-        margin-bottom: 2%;
+        margin-bottom: 8%;
     }
 
     @keyframes slideIn {
