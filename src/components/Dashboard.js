@@ -19,7 +19,7 @@ const Dashboard = () => {
             </div>
             <br /><br />
             <div className='dashRight'>
-                <br /><br />
+                <br /><br /><br />
                 <Link to='about' smooth={true} duration={500} >About Me</Link>
                 <br /><br />
                 <Link  to='projects' smooth={true} duration={500}>Projects</Link>
