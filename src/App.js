@@ -8,9 +8,9 @@ import Contact from './components/Contact';
 import TechSkills from './components/TechSkills';
 import Education from './components/Education'
 import WorkRecord from './components/WorkRecord';
-import KSDemo from './components/videos/KitchenSyncDemo.mp4';
-import ASDemo from './components/videos/AudraSiteDemo.mp4';
-import MTTDemo from './components/videos/TTDemo.mp4';
+import KSDemo from './components/KSDemo';
+import ASDemo from './components/ASDemo';
+import MTTDemo from './components/MTTDemo';
 
 function App() {
   return (

@@ -13,7 +13,7 @@ const Projects = () => {
             <h1 className='CTitles'>Projects</h1>
             <br />
             <div className='pBox'>
-                    <Image className='plogo' src={MTT} alt='...' />
+                    <Image className='plogo' src={MTT} alt='....' />
                     <h1 style={{ fontFamily: 'SokaRegular'}}>My Tribe Tracker (In Progress)</h1>
                 <div className='pLinkBox'>
                     <br/>
