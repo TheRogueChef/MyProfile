@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
-import KSLogo from 'src/components/images/KSLogo.png';
+import KSLogo from 'src/components/images/KSLogo.PNG';
 import MTT from './images/MTT_Logo.PNG'; 
 import ACLogo from './images/ACLogo.PNG';
 import '../components/style.css';
@@ -13,7 +13,7 @@ const Projects = () => {
             <h1 className='CTitles'>Projects</h1>
             <br />
             <div className='pBox'>
-                    <Image className='plogo' src={MTT} alt='...' />
+                    <Image className='plogo' src={MTT} alt='....' />
                     <h1 style={{ fontFamily: 'SokaRegular'}}>My Tribe Tracker (In Progress)</h1>
                 <div className='pLinkBox'>
                     <br/>
