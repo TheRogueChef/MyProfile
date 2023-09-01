@@ -3,7 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 import KSLogo from './images/KSLogo.png';
 import MTT from './images/MTT_Logo.png'; 
-import ACLogo from './images/ACLogo.png'
+import ACLogo from './images/ACLogo.png';
 import '../components/style.css';
 
 
