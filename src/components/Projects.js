@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
-import KSLogo from './images/KSLogo.PNG';
-import MTT from './images/MTT_Logo.PNG'; 
-import ACLogo from './images/ACLogo.PNG';
+import KSLogo from './images/KSLogo.png';
+import MTT from './images/MTT_Logo.png'; 
+import ACLogo from './images/ACLogo.png';
 import '../components/style.css';
 
 
