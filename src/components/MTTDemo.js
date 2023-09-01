@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import video from './videos/Tribe_Preview.mp4';
+import video from './videos/TTDemo.mp4';
 
 
 const MTTDemo = () => {
