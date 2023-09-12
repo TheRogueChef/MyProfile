@@ -3,6 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
 import KSLogo from './images/KSLogo.jpg';
 import MTT from './images/MTT_Logo.jpg'; 
+import Ers from './images/Mythosaur.jpg';
 import ACLogo from './images/ACLogo.jpg';
 import '../components/style.css';
 
@@ -13,8 +14,26 @@ const Projects = () => {
             <h1 className='CTitles'>Projects</h1>
             <br />
             <div className='pBox'>
+                    <Image className='plogo' src={Ers} alt='....' />
+                    <h1 style={{ fontFamily: 'SokaRegular'}}>Ers Q'Orr, Bounty Hunter</h1>
+                <div className='pLinkBox'>
+                    <br/>
+                    <RouterLink style={{ color: 'red'}} target= 'blank' to='http://github.com/TheRogueChef/Ers_Q-Orr'>GitHub Link</RouterLink>
+                    <br/>
+                    <RouterLink style={{ color: 'red'}} to='/ErsDemo'>Demo</RouterLink>
+                    <br/>
+                </div>
+                <ul>
+                    <li>-Created in JavaScript</li>
+                    <li>-Utilized REACT (Node.js)</li>
+                    <li>-Tools used: scroll, scripts, Bootstrap</li>
+                </ul>
+            </div>
+            <p>During the pandemic I created my own Mandalorian Bounty Hunter named Ers Q'Orr along with his suit of armor and his weapons. Now, he needs to advertise his services to the universe. I tried to design this profile as seperate components, as opposed to one main page. I played with stylings and continue to refine my skills. And, if you ever need any inter-galactic services, please feel free to check out Ers' services pages.</p>
+            <br /><br /><br />
+            <div className='pBox'>
                     <Image className='plogo' src={MTT} alt='....' />
-                    <h1 style={{ fontFamily: 'SokaRegular'}}>My Tribe Tracker (In Progress)</h1>
+                    <h1 style={{ fontFamily: 'SokaRegular'}}>My Tribe Tracker</h1>
                 <div className='pLinkBox'>
                     <br/>
                     <RouterLink style={{ color: 'red'}} target= 'blank' to='http://github.com/TheRogueChef/My_Tribe_Tracker'>GitHub Link</RouterLink>
@@ -28,7 +47,7 @@ const Projects = () => {
                     <li>-Tools used: scroll, scripts, Bootstrap, Axios, Postman, MongoDB</li>
                 </ul>
             </div>
-            <p>My Tribe Tracker was a site designed for friends to gather. It offers an events page, a tribe diary, an ongoing chat, an embedded Spotify player with tribe playlist, a families page, a photo gallery with tribe added photos and finally a random API call function. When finished it will have some settings (day/night) and be fully responsive on all devices. Stay tuned...</p>
+            <p>My Tribe Tracker was a site designed for friends to gather. It offers an events page, a tribe diary, an ongoing chat, an embedded Spotify player with tribe playlist, a families page and finally a random API call function.</p>
             <br /><br /><br />
             <div className='pBox'>
                     <Image className='plogo' src={ACLogo} alt='...' />

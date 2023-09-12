@@ -11,6 +11,7 @@ import WorkRecord from './components/WorkRecord';
 import KSDemo from './components/KSDemo';
 import ASDemo from './components/ASDemo';
 import MTTDemo from './components/MTTDemo';
+import ErsDemo from './components/ErsDemo';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path='/KSDemo' element={<KSDemo/>} />
           <Route path='/ASDemo' element={<ASDemo/>} />
           <Route path='/MTTDemo' element={<MTTDemo/>} />
+          <Route path='/ErsDemo' element={<ErsDemo/>} />
         </Routes>
       </Router>
     </div>
