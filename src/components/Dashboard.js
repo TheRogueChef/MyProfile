@@ -8,7 +8,7 @@ const Dashboard = () => {
     return (
         <div className='dashShell' >
             <MobileMenu />
-            <div>
+            <div className="dashMain">
                 <div className='dashLeft'>
                     <p>Erik</p>
                     <p style={{ marginTop: '-8%'}}>Carlson</p>
